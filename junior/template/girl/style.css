@@ -47,14 +47,27 @@
 }
 
 .top .occasion {
-    font-size: 2rem;
+    font-size: 1rem;
+    font-style: italic;
 }
 
-.middle img {
+.top .name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.middle .flowers img {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 250px;
+}
+
+.middle .girl {
     width: 300px;
     height: auto;
     border-radius: 50%;
-    border: 8px dotted white;
+    border: 8px solid white;
 }
 
 .bottom {
@@ -62,4 +75,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 }
