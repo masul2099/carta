@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: rgb(242, 167, 236);
+    --text-color: white;
+}
+
+* {
+    color: var(--text-color);
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "ABeeZee";
+}
+
+.content {
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.top .fireworks img {
+    display: block;
+    width: 140px;
+}
+
+.top .fireworks {
+    width: 400px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .occasion {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.top .name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.middle .rocket img {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    width: 180px;
+}
+
+.middle .girl {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.bottom p {
+    text-align: center;
+    width: 250px;
+}
+
+.bottom .wisher {
+    font-style: italic;
+}
